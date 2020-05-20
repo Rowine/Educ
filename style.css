@@ -27,13 +27,15 @@ p {
 }
 
 .header {
-    background-image: url(img/Bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 93.9rem;
+    width: 100%;
+    background: url(img/Bg.jpg) no-repeat;
+    overflow: visible;
 }
 
 .container {
     padding: 6rem 15rem 0 15rem;
+    position: relative;
 }
 
 .navigation {
@@ -74,8 +76,13 @@ p {
 
 .heading {
     color: #ffffff;
-    width: 50rem;
     margin-top: 21.1rem;
+    display: inline-block;
+}
+
+.heading__text{
+    width: 50rem;
+    height: 35.9rem;
 }
 
 .heading__main {
@@ -85,7 +92,6 @@ p {
 .paragraph {
     margin-bottom: 6rem;
 }
-
 
 .btn:link,
 .btn:visited {
@@ -97,6 +103,7 @@ p {
     color: #ffffff;
     font-size: 2rem;
     font-weight: 400;
+    box-shadow: 2px 5px 50px rgba(254, 116, 80, 0.2);
     transition: all .2s;
 }
 .btn:hover {
@@ -106,3 +113,38 @@ p {
 .btn:active {
     transform: translateY(1px);
 }
+
+.heading__img {
+    position: absolute;
+    top: 28.3rem;
+    left: 79.5rem;
+    border-radius: 8px;
+}
+
+.comment__text {
+    background: url(img/box\ 1.svg) no-repeat;
+    width: 55rem;
+    height: 27.5rem;
+    position: absolute;
+    left: 44.5rem;
+    top: 67.9rem;
+    text-align: left;
+    padding: 5.7rem 6.8rem;
+}
+
+.heading__comment {
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 500;
+    font-style: italic;
+    width: 40rem;
+    height: 12rem;
+    margin-bottom: 1.2rem;
+}
+
+.heading__name {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
