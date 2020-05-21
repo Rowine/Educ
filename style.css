@@ -91,7 +91,7 @@ p {
 
 .heading {
     color: #ffffff;
-    margin-top: 21.1rem;
+    margin-top: 15rem;
     display: inline-block;
 }
 
@@ -131,13 +131,13 @@ p {
 
 .dots__img {
     position: absolute;
-    left: 1204px;
-    top: 223px;
+    left: 120.4rem;
+    top: 19.5rem;
 }
 
 .heading__img {
     position: absolute;
-    top: 28.3rem;
+    top: 25rem;
     left: 79.5rem;
     border-radius: 8px;
 }
@@ -147,10 +147,10 @@ p {
     width: 55rem;
     height: 27.5rem;
     position: absolute;
-    left: 44.5rem;
+    left: 47.5rem;
     top: 67.9rem;
     text-align: left;
-    padding: 5.7rem 6.8rem;
+    padding: 5rem 7rem;
 }
 
 .heading__comment {
@@ -160,7 +160,7 @@ p {
     font-style: italic;
     width: 40rem;
     height: 12rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 2rem;
 }
 
 .heading__name {
@@ -170,7 +170,7 @@ p {
 }
 
 
-.popular__categories--heading {
+.popular__heading {
     margin-top: 10rem;
     text-align: center;
 }
@@ -219,6 +219,57 @@ p {
     margin-right: 4.8rem;
 }
 
+.popular__table {
+    margin-top: 5rem;
+}
 
+.popular__table-col {
+    width: 35rem;
+    height: 35rem;
+    border-radius: 1rem;
+    box-shadow: 3px 8px 10px rgba(0, 0, 0, 0.25);
+}
 
+.table__img {
+    width: 35rem;
+    border-radius: 1rem;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.text__container {
+    margin: .8rem 2.5rem 2.1rem 2.5rem;
+}
+
+.table__text {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.7rem;
+    width: 30rem;
+    margin-bottom: .8rem;
+}
+
+.table__author {
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    margin-right: 12.9rem;
+    margin-bottom: .8rem;
+    float: left;
+}
+
+.table__price {
+    float: left;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+}
+
+.table__btn {
+    float: left;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color: var(--secondary-color);
+}
 
