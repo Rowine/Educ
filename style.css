@@ -28,14 +28,14 @@ p {
 
 .header {
     height: 93.9rem;
-    width: 100%;
+    width: 100vw;
     background: url(img/Bg.jpg) no-repeat;
+    background-size: cover;
     overflow: visible;
 }
 
 .container {
     padding: 6rem 15rem 0 15rem;
-    position: relative;
 }
 
 .navigation {
@@ -114,6 +114,12 @@ p {
     transform: translateY(1px);
 }
 
+.dots__img {
+    position: absolute;
+    left: 1204px;
+    top: 223px;
+}
+
 .heading__img {
     position: absolute;
     top: 28.3rem;
@@ -147,4 +153,6 @@ p {
     font-weight: 700;
     line-height: 3rem;
 }
+
+
 
