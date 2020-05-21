@@ -30,6 +30,13 @@ h2 {
     color: var(--primary-color);
 }
 
+h3 {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 700;
+}
+
 p {
     font-size: 1.6rem;
 }
@@ -161,5 +168,57 @@ p {
     font-weight: 700;
     line-height: 3rem;
 }
+
+
+.popular__categories--heading {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.paragraph__width {
+    width: 53rem;
+    text-align: center;
+    display: inline-block;
+    margin-top: 1.6rem;
+}
+
+.popular__categories--icon{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 6.1rem;
+    margin-bottom: 2.3rem ;
+}
+
+.popular__categories--icon-item:not(:last-child) {
+    margin-right: 26rem;
+}
+
+.popular__categories--h3 {
+    display: flex;
+    justify-content: center;
+}
+
+.popular__categories--h3-item:not(:last-child) {
+    margin-right: 18rem;
+}
+
+.popular__categories--description {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.paragraph__item {
+    width: 35rem;
+    text-align: center;
+}
+
+.paragraph__item:not(:last-child) {
+    margin-right: 4.8rem;
+}
+
+
 
 
