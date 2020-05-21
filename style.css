@@ -22,6 +22,14 @@ h1 {
     font-family: 'Roboto Slab', serif;
 }
 
+h2 {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 6.6rem;
+    color: var(--primary-color);
+}
+
 p {
     font-size: 1.6rem;
 }
@@ -153,6 +161,5 @@ p {
     font-weight: 700;
     line-height: 3rem;
 }
-
 
 
