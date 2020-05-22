@@ -283,3 +283,23 @@ p {
     color: var(--secondary-color);
 }
 
+.helping__main {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.main__heading {
+    width: 50rem;
+    margin-bottom: 2rem;
+}
+
+.sub__heading {
+    width: 50rem;
+    margin-bottom: 2rem;
+}
+
+.helping__img {
+    margin-left: 17.9rem;
+}
+
