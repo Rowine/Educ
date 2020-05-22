@@ -303,3 +303,39 @@ p {
     margin-left: 17.9rem;
 }
 
+.review__section {
+    background: rgba(254, 116, 80, 0.08);
+    margin-top: -10rem;
+}
+
+.review__content {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 82.7rem;
+    height: 43.3rem;
+}
+
+.review__img {
+    margin-top: 30rem;
+}
+
+.review__text {
+    margin-top: 31rem;
+    margin-left: 9rem;
+}
+
+.review__name {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 4.5rem;
+    color: var(--primary-color);
+}
+
+.review__job {
+    font-size: 1.6rem;
+    font-weight: 400;
+
+}
+
