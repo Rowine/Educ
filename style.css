@@ -103,8 +103,7 @@ footer {
 
 .heading__text{
     width: 50rem;
-    height: 35.9rem;
-    
+    height: 35.9rem;  
 }
 
 .heading__main {
@@ -179,7 +178,7 @@ footer {
 
 .dots__img {
     position: absolute;
-    left: 120.4rem;
+    left: 115rem;
     top: 19.5rem;
 }
 
@@ -224,49 +223,45 @@ footer {
     text-align: center;
 }
 
-.paragraph__width {
+.popular__sub {
     width: 53rem;
     text-align: center;
     display: inline-block;
     margin-top: 1.6rem;
 }
 
-.popular__categories--icon{
+.categories {
     display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories__container {
     text-align: center;
-    justify-content: center;
-    flex-direction: row;
-    margin: 6.1rem;
-    margin-bottom: 2.3rem ;
+    height: 26rem;
+    margin-top: 7rem;
 }
 
-.popular__categories--icon-item:not(:last-child) {
-    margin-right: 26rem;
+.categories__icon{
+    margin-bottom: 2.3rem;
 }
 
-.popular__categories--h3 {
-    display: flex;
-    justify-content: center;
+.categories__heading{
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2.3rem;
 }
 
-.popular__categories--h3-item:not(:last-child) {
-    margin-right: 18rem;
+.categories__desc {
+    font-size: 1.6rem;
+    font-weight: 500;
+    padding: 0 2rem;
 }
 
-.popular__categories--description {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
 
-.paragraph__item {
-    width: 35rem;
-    text-align: center;
-}
 
-.paragraph__item:not(:last-child) {
-    margin-right: 4.8rem;
-}
 
 .popular__table {
     margin-top: 3.4rem;
@@ -453,3 +448,4 @@ footer {
     cursor: pointer;
 }
 
+@media
