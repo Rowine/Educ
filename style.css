@@ -70,6 +70,7 @@ footer {
     font-weight: 600;
     color: #ffffff;
     line-height: 5rem;
+    animation: toRight 1.5s;
 }
 
 .navigation__list {
@@ -77,6 +78,7 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 53.7rem;
+    animation: toLeft 1.5s;
 }
 
 .navigation__item {
@@ -102,14 +104,17 @@ footer {
 .heading__text{
     width: 50rem;
     height: 35.9rem;
+    
 }
 
 .heading__main {
     margin-bottom: 2.8rem;
+    animation: toRight 1.5s;
 }
 
 .paragraph {
     margin-bottom: 6rem;
+    animation: toRight 1.5s;    
 }
 
 .btn:link,
@@ -124,6 +129,7 @@ footer {
     font-weight: 400;
     box-shadow: 2px 5px 50px rgba(254, 116, 80, 0.2);
     transition: all .2s;
+    animation: toLeft 1.5s;
 }
 .btn:hover {
     transform: translateY(-3px);
@@ -131,6 +137,44 @@ footer {
 
 .btn:active {
     transform: translateY(1px);
+}
+
+@keyframes toRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes toLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes toUp {
+    0% {
+        transform: translateY(100px);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
 
 .dots__img {
@@ -144,6 +188,7 @@ footer {
     top: 25rem;
     left: 79.5rem;
     border-radius: 8px;
+    animation: toUp 1.5s ease-in-out;
 }
 
 .comment__text {
