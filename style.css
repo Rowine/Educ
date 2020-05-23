@@ -41,6 +41,10 @@ p {
     font-size: 1.6rem;
 }
 
+footer {
+    height: 50vh;
+}
+
 .header {
     height: 93.9rem;
     width: 100vw;
@@ -337,5 +341,70 @@ p {
     font-size: 1.6rem;
     font-weight: 400;
 
+}
+
+.footer__container {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.footer__heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__logo {
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 5.2rem;
+    color: var(--primary-color);
+    margin-bottom: 2.8rem;
+    display: inline-block;
+}
+
+.footer__sub {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    line-height: 2.4rem;
+    width: 27rem;
+    margin-bottom: 3.4rem;
+    display: inline-block;
+}
+
+.footer__links {
+    display: inline-block;
+}
+
+
+.footer__icon {
+    margin-right: 1.6rem;
+    height: 2rem;
+    width: 100%;
+    transition: all 1s;
+}
+
+.footer__img:hover {
+    transform: rotate(15deg) translateY(-3px);
+}
+
+
+
+.main__section {
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 4rem;
+    color: var(--primary-color);
+}
+
+.main__sub {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3rem;
+    color: var(--primary-color);
+    margin-top: 2.4rem;
+    cursor: pointer;
 }
 
