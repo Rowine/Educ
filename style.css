@@ -47,7 +47,7 @@ footer {
 
 .header {
     height: 93.9rem;
-    width: 100vw;
+    width: 100%;
     background: url(img/Bg.jpg) no-repeat;
     background-size: cover;
     overflow: visible;
@@ -88,6 +88,22 @@ footer {
     text-decoration: none;
     padding: 1rem;
     transition: all .2s ease-in;
+}
+
+.fas {
+    position: absolute;
+}
+
+.fa-bars {
+    left: 90%;
+    top: ;
+    font-size: 3.5rem;
+    color: #ffffff;
+    display: none;
+}
+
+.fa-times {
+    display: none;
 }
 
 .navigation__item:hover {
@@ -180,6 +196,7 @@ footer {
     position: absolute;
     left: 115rem;
     top: 19.5rem;
+    animation: toLeft 1.5s;
 }
 
 .heading__img {
@@ -260,9 +277,6 @@ footer {
     padding: 0 2rem;
 }
 
-
-
-
 .popular__table {
     margin-top: 3.4rem;
 }
@@ -272,7 +286,6 @@ footer {
     box-shadow: 3px 8px 10px rgba(0, 0, 0, 0.25);
     border-radius: 1rem;
 }
-
 
 .popular__table-col {
     display: flex;
@@ -448,4 +461,71 @@ footer {
     cursor: pointer;
 }
 
-@media
+@media only screen and (max-width: 480px) and (min-width: 320px ) {
+    html {
+        font-size: 5.5px;
+    }
+
+    .header {
+        height: 100vh;
+    }
+
+    .heading{
+        margin-top: 20rem;
+    }
+
+    .container {
+        padding: 5rem;
+    }
+
+    .navigation__list {
+        display: none;
+        width: 50%;
+    }
+
+    .navigation__list--active {
+        list-style-type: none;
+        position: fixed;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-between;
+        margin-top: 24rem;
+        height: 100vh;
+        width: 35%;
+        background-color: rgb(255, 98, 59);
+        z-index: 1000;
+        animation: none;
+        right: 0;
+    }
+    
+
+    .fa-bars {
+        display: initial;
+    }
+
+    .fa-times {
+        display: initial;
+        font-size: 3rem;
+        color: #ffffff;
+        top: 2.5rem;
+        left: 2.5rem;
+    }
+    
+    li {
+        margin-top: 10rem;
+        width: 100%;
+    }
+
+    .dots__img {
+        display: none;
+    }
+
+    .heading__img {
+        display: none;
+    }
+
+    .comment__text {
+        display: none;
+    }
+    
+}
