@@ -45,6 +45,8 @@ footer {
     height: 50vh;
 }
 
+/* HEADING */
+
 .header {
     height: 93.9rem;
     width: 100%;
@@ -193,31 +195,36 @@ footer {
 
 .dots__img {
     position: absolute;
-    left: 115rem;
-    top: 19.5rem;
+    height: auto;
+    width: 10%;
+    left: 86%;
+    top: 27%;
     animation: toLeft 1.5s;
 }
 
 .heading__img {
     position: absolute;
-    top: 25rem;
-    left: 79.5rem;
+    display: inline-block;
+    height: 130%;
+    width: auto;
+    top: 37%;
+    left: 53%;
     border-radius: 8px;
     animation: toUp 1.5s ease-in-out;
 }
 
-.comment__text {
+.comment{
     background: url(img/box\ 1.svg) no-repeat;
-    width: 55rem;
-    height: 27.5rem;
+    height: auto;
+    width: auto;
     position: absolute;
-    left: 47.5rem;
-    top: 67.9rem;
+    left: 35%;
+    top: 122%;
     text-align: left;
-    padding: 5rem 7rem;
+    padding: 4rem 6rem 5rem 7rem;
 }
 
-.heading__comment {
+.comment__heading {
     font-size: 2rem;
     line-height: 3rem;
     font-weight: 500;
@@ -227,13 +234,18 @@ footer {
     margin-bottom: 2rem;
 }
 
-.heading__name {
+.comment__name {
     font-size: 2rem;
     font-weight: 700;
     line-height: 3rem;
 }
 
 
+/* HEADING END */
+
+
+
+/* POPULAR CATEGORIES */
 .popular__heading {
     margin-top: 10rem;
     text-align: center;
@@ -247,10 +259,11 @@ footer {
 }
 
 .categories {
-    display: flex;
-    align-content: center;
+    display: grid;
+    grid-template-columns: 35rem 35rem 35rem;
+    justify-self: center;
     justify-content: center;
-    align-items: center;
+    
 }
 
 .categories__container {
@@ -260,9 +273,10 @@ footer {
 }
 
 .categories__icon{
-    margin-bottom: 2.3rem;
+    height: 12rem;
     width: auto;
-    height: 14.7rem;
+    margin-bottom: 2.3rem;
+    
 }
 
 .categories__heading{
@@ -278,6 +292,10 @@ footer {
     padding: 0 2rem;
 }
 
+/* POPULAR CATEGORIES END */
+
+
+/* POPULAR COURSES */
 .popular__table {
     margin-top: 3.4rem;
 }
