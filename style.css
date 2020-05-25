@@ -196,19 +196,19 @@ footer {
 .dots__img {
     position: absolute;
     height: auto;
-    width: 10%;
-    left: 86%;
-    top: 27%;
+    width: 18.1rem;
+    left: 83%;
+    top: 25%;
     animation: toLeft 1.5s;
 }
 
 .heading__img {
     position: absolute;
     display: inline-block;
-    height: 130%;
+    height: 70rem;
     width: auto;
-    top: 37%;
-    left: 53%;
+    top: 35%;
+    left: 55%;
     border-radius: 8px;
     animation: toUp 1.5s ease-in-out;
 }
@@ -219,7 +219,7 @@ footer {
     width: auto;
     position: absolute;
     left: 35%;
-    top: 122%;
+    top: 95%;
     text-align: left;
     padding: 4rem 6rem 5rem 7rem;
 }
@@ -296,68 +296,63 @@ footer {
 
 
 /* POPULAR COURSES */
-.popular__table {
-    margin-top: 3.4rem;
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 33.5rem);
+    grid-template-rows: repeat(2, 35rem);
+    column-gap: 2rem;
+    row-gap: 3rem;
 }
 
-.popular__table-box {
-    margin-right: 4.5rem;
+.card {
+    margin-top: 3rem;
+    height: 100%;
+    border-radius: 1rem;
     box-shadow: 3px 8px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 1rem;
+    overflow: hidden;
 }
 
-.popular__table-col {
-    display: flex;
-    width: 35rem;
-    height: 35rem;
-}
-
-.table__img {
-    width: 35rem;
-    border-radius: 1rem;
+.card__img {
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    width: 100%;
 }
 
-.text__container {
-    margin: .8rem 2.5rem 2.1rem 2.5rem;
-}
-
-.table__text {
+.card__title {
+    width: 30rem;
     font-size: 1.8rem;
     font-weight: 600;
-    line-height: 2.7rem;
-    width: 30rem;
+    margin-left: 2.5rem;
     margin-bottom: .8rem;
 }
 
-.table__author {
-    display: flex;
+.card__author {
     font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 2.4rem;
-    margin-right: 12.9rem;
+    font-weight: normal;
+    display: inline;
+    margin-left: 2.5rem;
+    display: inline-block;
     margin-bottom: .8rem;
-    float: left;
 }
 
-.table__price {
-    float: left;
+.card__price {
     font-size: 1.6rem;
     font-weight: 600;
-    line-height: 2.4rem;
+    margin-left: 13rem;
+    display: inline-block;
 }
 
-.table__btn {
-    float: left;
-    font-size: 1.6rem;
-    font-weight: 400;
-    line-height: 2.4rem;
-}
-
-.view__course {
+.card__link {
     text-decoration: none;
     color: var(--secondary-color);
+    font-size: 1.6rem;
+    font-weight: normal;
+    margin-left: 2.5rem;
+    display: block;
+    margin-bottom: 1.5rem;
 }
+
+/* POPULAR COURSES END */
 
 .helping__main {
     display: flex;
