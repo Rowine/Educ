@@ -386,6 +386,10 @@ footer {
     margin-left: 17.9rem;
 }
 
+/* HELPING GROW END */
+
+
+/* REVIEW */
 .review__section {
     width: 100%;
     background: rgba(254, 116, 80, 0.08);
@@ -429,7 +433,10 @@ footer {
     font-weight: 400;
 
 }
+/* REVIEW END */
 
+
+/* FOOTER */
 .footer__container {
     margin-top: 5rem;
     display: flex;
@@ -495,6 +502,28 @@ footer {
     margin-top: 2.4rem;
     cursor: pointer;
 }
+
+/* FOOTER END */
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 2560px) and (min-width: 1440px) {
+    html {
+        font-size: 15px;
+    }
+
+    .helping__img {
+        height: 50rem;
+    }
+
+    .review__img {
+        width: 50rem;
+    }
+
+
+}
+
 
 @media only screen and (max-width: 1330px) {
     .heading__img {
@@ -655,7 +684,7 @@ footer {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        width: 30%;
+        width: 40%;
         background: rgba(254, 116, 80);
         top: 0;
         height: 100vh;
@@ -865,20 +894,20 @@ footer {
 
 @media only screen and (max-width: 380px) {
     .comment {
-        right: 50%;
+        left: 9%;
     }
 }
 
 
-@media only screen and (max-width: 360px) and (min-width: 320px) {
+@media only screen and (max-width: 360px) {
 
     .comment {
-        right: 70%;
+        left: 10%;
     }
 
     .comment__box {
         height: 20%;
-        right: 25%;
+        left: 5%;
     }
 
     .popular__categories {
@@ -919,4 +948,26 @@ footer {
     }
 }
 
+@media only screen and (max-width: 320px) {
+    .card__price {
+        margin-left: 3rem;
+    }
+
+    .footer__logo {
+        font-size: 2.5rem;
+        margin-bottom: .5rem;
+    }
+
+    .footer__sub {
+        font-size: 1.2rem;
+    }
+
+    .main__section {
+        font-size: 1.5rem;
+    }
+
+    .main__sub {
+        font-size: 1rem;
+    }
+}
 
