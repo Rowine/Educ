@@ -1,2 +1,2 @@
 # Educ
-A simple static webpage project
+A simple htl & css static webpage project
